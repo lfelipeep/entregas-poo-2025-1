@@ -13,9 +13,7 @@ Fecha: 2025-02-27
 import unittest
 
 class Producto:
-    """
-    Clase que representa un producto en la tienda.
-    """
+   
     def __init__(self, nombre: str, precio: int, cantidad: int):
         self.nombre = nombre
         self.precio = precio

@@ -15,11 +15,11 @@ class Producto:
         """
         Inicializa un producto con sus atributos básicos.
         
-        :param nombre: Nombre del producto.
-        :param precio: Precio unitario del producto.
-        :param cantidad: Cantidad disponible en inventario.
-        :param descripcion: Breve descripción del producto.
-        :param clasificacion: Categoría o clasificación del producto.
+         nombre: Nombre del producto.
+         precio: Precio unitario del producto.
+         cantidad: Cantidad disponible en inventario.
+         descripcion: Breve descripción del producto.
+         clasificacion: Categoría o clasificación del producto.
         """
         self.nombre = nombre
         self.precio = precio
@@ -47,7 +47,7 @@ def solicitar_producto(num):
     """
     Solicita los datos de un producto al usuario y lo crea.
     
-    :param num: Número del producto en la lista de entrada.
+     Número del producto en la lista de entrada.
     :return: Instancia de la clase Producto con los datos ingresados.
     """
     print(f"> Producto {num}, ¿cuál es el nombre?")
@@ -64,7 +64,7 @@ def validar_entero(mensaje):
     """
     Solicita un número entero positivo al usuario.
     
-    :param mensaje: Mensaje a mostrar al usuario.
+    Mensaje a mostrar al usuario.
     :return: Un número entero válido ingresado por el usuario.
     """
     while True:
@@ -82,7 +82,7 @@ def calcular_precio_unitario_por_clasificacion(productos):
     """
     Calcula el precio unitario total por clasificación.
     
-    :param productos: Lista de objetos de tipo Producto.
+     Lista de objetos de tipo Producto.
     :return: Diccionario con la clasificación como clave y la suma de los precios unitarios como valor.
     """
     resumen = {}
@@ -98,7 +98,7 @@ def mostrar_resumen(productos):
     """
     Muestra en pantalla un resumen de los productos ingresados.
     
-    :param productos: Lista de objetos de tipo Producto.
+   Lista de objetos de tipo Producto.
     """
     print("\n> Resumen:")
     print("> |Producto   |Cantidad     |Precio     |Descripción  |Clasificación |Total en inventario |Precio x5 unidades |")

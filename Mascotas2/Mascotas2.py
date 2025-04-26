@@ -1,5 +1,5 @@
 """
-Título de práctica:  mascotas2
+Título de práctica:  Mascotas2
 
 Extensión del sistema de registro de mascotas con visualización de resumen usando herencia múltiple.
 

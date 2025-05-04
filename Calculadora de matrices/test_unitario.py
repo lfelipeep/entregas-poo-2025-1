@@ -1,5 +1,5 @@
 import unittest
-from Calculadora import Matriz
+from Calculadora_de_matrices import Matriz
 
 class TestMatriz(unittest.TestCase):
     def test_suma(self):
